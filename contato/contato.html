@@ -13,16 +13,16 @@
        <li>E-mail:rodrisiega@live.com</li> 
     </ul>
 
-    <form action="mailto:rodrisiega@live.com" method="POST" enctype="text/plain">  
+    <form action="mailto:rodrisiega@live.com" method="POST" enctype="text/plain" >  
         <!-- action="../index.html"  os pontos se referem a navegação entre pastas-->
         <label for="">Nome Completo</label><br />
-        <input type="text" name="Nome" /> <br />
+        <input type="text" name="Nome" required /> <br />
 
         <label for="">E-mail</label><br />
-        <input type="email" name="email"> <br />
+        <input type="email" name="email" required> <br />
 
         <label for="">Sua Mensagem</label><br />
-        <textarea name="mensagem" id="" cols="30" rows="10"></textarea> <br /> <br />
+        <textarea name="mensagem" id="" cols="30" rows="10" required></textarea> <br /> <br />
 
         <input type="submit"><br />
 
